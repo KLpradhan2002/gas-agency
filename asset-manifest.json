@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/go-gas-agency/static/css/main.4824b120.css",
+    "main.js": "/go-gas-agency/static/js/main.5be4fbde.js",
+    "index.html": "/go-gas-agency/index.html",
+    "main.4824b120.css.map": "/go-gas-agency/static/css/main.4824b120.css.map",
+    "main.5be4fbde.js.map": "/go-gas-agency/static/js/main.5be4fbde.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4824b120.css",
+    "static/js/main.5be4fbde.js"
+  ]
+}
