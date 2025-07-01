@@ -1,0 +1,85 @@
+.track-order-container {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 2rem 2.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  background: #f8fafc;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.06);
+}
+
+.track-order-container h2 {
+  margin-bottom: 1.5rem;
+  color: #007bff;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.track-order-details {
+  text-align: left;
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
+.track-order-details p {
+  margin: 0.5rem 0;
+}
+
+.track-order-details strong {
+  color: #222;
+}
+
+.track-order-details .status-confirmed {
+  color: #16a34a;
+  font-weight: bold;
+}
+.track-order-details .status-cancelled {
+  color: #dc2626;
+  font-weight: bold;
+}
+.track-order-details .status-pending {
+  color: #f59e42;
+  font-weight: bold;
+}
+
+.track-order-not-logged {
+  max-width: 420px;
+  margin: 80px auto 0 auto;
+  padding: 2rem 2.5rem;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 12px;
+  background: #fff8f0;
+  color: #b91c1c;
+  font-size: 1.18rem;
+  text-align: center;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.06);
+  font-weight: 500;
+}
+
+.trackorder-btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-bottom: 2rem;
+}
+.trackorder-btn, .trackorder-btn-active {
+  padding: 0.7rem 2.1rem;
+  font-size: 1.08rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 7px;
+  background: #e6f4ea;
+  color: #31486c;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.06);
+}
+.trackorder-btn-active {
+  background: linear-gradient(90deg, #31486c 60%, #07e524 100%);
+  color: #fff;
+  box-shadow: 0 4px 16px 0 rgba(7,229,36,0.13);
+}
+.trackorder-btn:hover:not(.trackorder-btn-active) {
+  background: #d1fae5;
+  color: #15803d;
+}

@@ -1,0 +1,96 @@
+.gas-booking-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.gas-booking-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.gas-booking-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+.gas-booking-form input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+.gas-booking-form select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  background: #f4f8fb;
+  font-size: 1rem;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+.gas-booking-form select:focus {
+  border: 1.5px solid #7c3aed;
+  outline: none;
+  box-shadow: 0 0 0 2px #d1c4e9;
+}
+.gas-booking-form option {
+  background: #fff;
+  color: #222;
+}
+.gas-booking-form button {
+  width: 100%;
+  padding: 0.6rem;
+  background: #7c3aed;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.gas-booking-form button:hover {
+  background: #5b21b6;
+}
+.gas-booking-msg {
+  margin-top: 1rem;
+  color: #15803d;
+  text-align: center;
+}
+.booking-history-list {
+  margin-top: 1.5rem;
+  background: #f8fafc;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 1.2rem 0.5rem 1.5rem 0.5rem;
+}
+.booking-history-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  font-size: 0.98rem;
+}
+.booking-history-table th, .booking-history-table td {
+  padding: 0.6rem 0.7rem;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: center;
+}
+.booking-history-table th {
+  background: #e6f4ea;
+  color: #31486c;
+  font-weight: 700;
+}
+.booking-history-table tr:last-child td {
+  border-bottom: none;
+}
+.booking-history-table td {
+  color: #222;
+}
+.booking-history-table td:last-child {
+  font-weight: 600;
+}

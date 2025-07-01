@@ -1,0 +1,42 @@
+.home-container {
+  max-width: 700px;
+  margin: 60px auto 0 auto;
+  padding: 2.5rem 2rem 2.5rem 2rem;
+  background: #f8fafc;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.home-title {
+  font-size: 2.5rem;
+  color: #31486c;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+.home-desc {
+  font-size: 1.25rem;
+  color: #444;
+  margin-bottom: 2.2rem;
+}
+
+.home-img {
+  width: 500px;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0);
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  .home-container {
+    padding: 1.2rem 0.5rem;
+  }
+  .home-title {
+    font-size: 2rem;
+  }
+  .home-img {
+    width: 98%;
+  }
+}

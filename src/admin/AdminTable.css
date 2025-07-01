@@ -1,0 +1,48 @@
+.admin-table-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.admin-table-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+.admin-table th, .admin-table td {
+  border: 1px solid #ddd;
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+.admin-table th {
+  background: #31486c;
+  color: #fff;
+}
+.admin-table tr:nth-child(even) {
+  background: #f6f8fa;
+}
+.admin-history-btn {
+  padding: 0.45rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(90deg, #31486c 60%, #07e524 100%);
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, transform 0.2s;
+  box-shadow: 0 1px 4px 0 rgba(49,72,108,0.10);
+}
+.admin-history-btn:hover {
+  background: linear-gradient(90deg, #07e524 60%, #31486c 100%);
+  color: #222;
+  transform: translateY(-2px) scale(1.04);
+}
