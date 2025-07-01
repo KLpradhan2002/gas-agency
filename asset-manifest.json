@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/go-gas-agency/static/css/main.4824b120.css",
-    "main.js": "/go-gas-agency/static/js/main.5be4fbde.js",
+    "main.js": "/go-gas-agency/static/js/main.0f00c886.js",
     "index.html": "/go-gas-agency/index.html",
     "main.4824b120.css.map": "/go-gas-agency/static/css/main.4824b120.css.map",
-    "main.5be4fbde.js.map": "/go-gas-agency/static/js/main.5be4fbde.js.map"
+    "main.0f00c886.js.map": "/go-gas-agency/static/js/main.0f00c886.js.map"
   },
   "entrypoints": [
     "static/css/main.4824b120.css",
-    "static/js/main.5be4fbde.js"
+    "static/js/main.0f00c886.js"
   ]
 }
